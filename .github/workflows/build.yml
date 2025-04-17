@@ -76,6 +76,7 @@ jobs:
         retention-days: 7
         path: |
           ${{ env.FW_FILE_NAME }}
+          tp_recovery.bin
           build.config
 
     - name: Check firmware size
